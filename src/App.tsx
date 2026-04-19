@@ -17,7 +17,8 @@ import Contatti from './pages/Contatti';
 
 function App() {
   return (
-    <Router>
+    /* Aggiunto il basename per gestire il sottopercorso di GitHub Pages */
+    <Router basename="/Usn-Walking">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
